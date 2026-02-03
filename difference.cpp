@@ -8,6 +8,7 @@
 #include <algorithm>
 #include <iterator>
 #include <filesystem>
+#include <vector>
 
 using namespace std;
 namespace fs = std::filesystem;
