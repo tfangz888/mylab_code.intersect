@@ -24,3 +24,7 @@ Linux下的uniq命令会改变原来的顺序
 
 # 寻找差学生，只要有一科成绩差，就会被列为差学生
 ## worse 0.2 subject1.txt subject2.txt subject3.txt 排名倒数20%之内的学生
+
+# 第一行 first 或 head -n 1
+# 最后一行 last 或 tail -n 1
+# 倒序 reverse  或 tac
