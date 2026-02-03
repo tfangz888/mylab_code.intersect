@@ -17,13 +17,18 @@ Linux下的uniq命令会改变原来的顺序
 
 # 寻找各科目均优秀的学生
 ## excellent 0.3 subject1.txt subject2.txt subject3.txt
-求多个科目的优秀学生，保留原有优秀顺序。第一个参数为优秀的前百分位   
+求多个科目都优秀学生，保留原有优秀顺序。第一个参数为优秀的前百分位   
 如果 ./excellent 0.3 subject1.txt subject2.txt subject3.txt      
 0.3表示每个科目名次在30%以内, subject是成绩排名，第一名是为最优秀    
 从每科目的第一名开始找，求各科目的交集  
 
 # 寻找差学生，只要有一科成绩差，就会被列为差学生
 ## worse 0.2 subject1.txt subject2.txt subject3.txt 排名倒数20%之内的学生
+求多个科目的差学生，保留原有差顺序。第一个参数为差的倒数排名百分位   
+如果 ./worse 0.2 subject1.txt subject2.txt subject3.txt 排名倒数20%之内的学生  
+0.2表示每个科目倒数名次在20%以内, subject是成绩排名，第一名是为最优秀  
+从每科目的最后一名开始找，求各科目的并集  
+倒序排名，先输出各科目的最后一名  
 
 # 第一行 first 或 head -n 1
 # 最后一行 last 或 tail -n 1
