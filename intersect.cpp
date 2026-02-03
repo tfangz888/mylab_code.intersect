@@ -1,5 +1,5 @@
 // g++ -o intersect -std=c++2a intersect.cpp -lstdc++
-// 求多个文件并集，允许有重复行，会改变原有顺序
+// 求多个文件交集，允许有重复行，会改变原有顺序
 
 #include <iostream>
 #include <fstream>
