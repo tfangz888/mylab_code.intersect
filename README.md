@@ -1,7 +1,7 @@
 # 集合运算
 
 ## intersect set1.txt set2.txt set3.txt
-求多个文件并集，允许有重复行，会改变原有顺序
+求多个文件交集，允许有重复行，会改变原有顺序
 
 ## merge set1.txt set2.txt set3.txt
 union 合并多个文件的所有行，且去重复   
