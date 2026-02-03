@@ -12,4 +12,5 @@ add_executable(unique unique.cpp)
 add_executable(excellent excellent.cpp)
 add_executable(worse worse.cpp)
 
+# cmake -S . -B build
 # cmake --build build

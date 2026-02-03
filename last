@@ -1,0 +1,4 @@
+#!/bin/sh
+# get last line of a file
+alias last='tail -n 1'
+last $1

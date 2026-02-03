@@ -1,0 +1,4 @@
+#!/bin/sh
+# reverse by line number of a file, comes from cat
+tac $1
+

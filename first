@@ -1,0 +1,4 @@
+#!/bin/sh
+# get first line of a file
+alias first='head -n 1'
+first $1
