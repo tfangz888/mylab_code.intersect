@@ -6,9 +6,11 @@
 ## merge set1.txt set2.txt set3.txt
 union 合并多个文件的所有行，且去重复   
 文件可以有重复行，会改变原有顺序  
+ln -s merge union  
 
 ## difference ordered_file1.txt file2.txt
 求两文件差集, 允许有重复行, 不会改变原来行的顺序.  如果第一个文件有重复行，会继续保留
+ln -s difference except  
 
 # 去重求唯一
 ## unique file.txt
