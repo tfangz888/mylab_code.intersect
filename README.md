@@ -12,6 +12,8 @@ ln -s merge union
 求两文件差集, 允许有重复行, 不会改变原来行的顺序.  如果第一个文件有重复行，会继续保留
 ln -s difference except  
 
+## 集合运算跟命令 comm相似  
+
 # 去重求唯一
 ## unique file.txt
 一个文件的行的去重，不改变原来的顺序  
